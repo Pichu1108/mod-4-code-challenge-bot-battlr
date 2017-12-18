@@ -7,7 +7,8 @@ class BotsPage extends React.Component {
   //start here with your code for step one
   state = {
     bots: [],
-    myArmy: []
+    myArmy: [],
+    currentBot: {}
   };
 
   componentDidMount() {
